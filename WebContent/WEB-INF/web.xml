@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>organization_test.Login</servlet-class>
+  </servlet>
+  <servlet>
+  <servlet-name>AdminLogin</servlet-name>
+    <servlet-class>organization_test.AdminLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdminDbValid</servlet-name>
+    <servlet-class>organization_test.AdminDbValid</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddQueServlet</servlet-name>
+    <servlet-class>organization_test.AddQueServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CreateTestServlet</servlet-name>
+    <servlet-class>organization_test.CreateTestServlet</servlet-class>
+  </servlet>
+  
+  
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminLogin</servlet-name>
+    <url-pattern>/AdminLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminDbValid</servlet-name>
+    <url-pattern>/AdminDbValid</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>AddQueServlet</servlet-name>
+    <url-pattern>/AddQueServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CreateTestServlet</servlet-name>
+    <url-pattern>/CreateTestServlet</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

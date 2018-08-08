@@ -1,0 +1,76 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("table").hide();
+    });
+    $("#show").click(function(){
+        $("table").show();
+    });
+});
+</script>
+</head>
+<body style="background-color:#E6E6E6">
+<nav class="navbar navbar-default">
+   <div class="container-fluid">
+     <div class="navbar-header">
+       <a class="navbar-brand" href="#">XYZ Organisation test</a>
+     </div>
+     <ul class="nav navbar-nav">
+       <li><a href="AvailableTest.html">Home</a></li>
+       <li><a href="studyMaterial.html">study material</a></li>
+     </ul>
+  <ul class="nav navbar-nav navbar-right">
+      
+       <li><a href="candlogin.htm"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+     </ul>
+     
+  </div>
+</nav>
+<div class="container">
+<div class="row">
+<div class="col-md-3" style="border-right:1px solid black;background-color:teal">
+<br>
+<br>
+<h4 class="text-Primary" style="color:yellow">CANDIDATE DETAILS:</h4>
+<br>
+<h6 class="text-Primary" style="color:white">NAME:XXXXXX</h6><br>
+<h6 class="text-Primary" style="color:white">CANDIDATE ID:XX</h6><br>
+<h6 class="text-Primary" style="color:white">SKILL SET:XX-XX-XXXX<br></h6><br>
+<h6 class="text-Primary" style="color:white">DOMAIN NAME:XXXXXX<br></h6>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</div>
+
+<div class="col-md-9" style="background-color:gray">
+<br><br>
+<h3>You have Completed following Tests </h3>
+<br>
+<p style="text-align:center;">
+<table style="border:1px solid black;padding-left:2cm;background-color:white;">
+<thead>
+<tr>
+<th style="border:1px solid black;padding-left:1cm;padding-right:2cm;padding-top:5px;padding-bottom:5px;">  S.NO  </th><th style="border:1px solid black;padding-left:1cm">DESCRIPTION</th><th style="border:1px solid black;padding-left:1cm">DATE OF COMPLETION</th><th style="border:1px solid black;padding-left:1cm">SCORES</th></tr>
+<tr><td style="border:1px solid black;padding-left:1cm;padding-right:2cm;padding-top:5px;padding-bottom:5px;">  1  </td><td style="border:1px solid black;padding-left:1cm">JAVA -C001</td><td style="border:1px solid black;padding-left:1cm">23/01/2018</td><td style="border:1px solid black;padding-left:1cm">78</td></tr>
+<tr><td style="border:1px solid black;padding-left:1cm;padding-right:2cm;padding-top:5px;padding-bottom:5px;">  2  </td><td style="border:1px solid black;padding-left:1cm">Database-C002</td><td style="border:1px solid black;padding-left:1cm">30/12/2017</td><td style="border:1px solid black;padding-left:1cm">65</td></tr>
+<tr><td style="border:1px solid black;padding-left:1cm;padding-right:2cm;padding-top:5px;padding-bottom:5px;">  3  </td><td style="border:1px solid black;padding-left:1cm">SQL-C003</td><td style="border:1px solid black;padding-left:1cm">21/11/2017</td><td style="border:1px solid black;padding-left:1cm">84</td></tr>
+</table>
+</p>
+<br><br><br>
+<a href="AvailableTest.html" id="hide" class="btn btn-primary active"style="margin-left:20%">GO BACK</a>
+<a href="AvailableTest.html" id="hide" class="btn btn-primary active"style="margin-left:2%">HOME</a>
+
+<br><br><br><br>
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+</div>
+</div>
+</div>
+</body>
+</html>
